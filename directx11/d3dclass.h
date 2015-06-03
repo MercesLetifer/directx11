@@ -21,6 +21,7 @@
 #include <d3dcommon.h>
 #include <d3d11.h>
 #include <D3DX10math.h>
+#include <fstream>
 
 //------------------------------------------------------------------------------------
 // Class name: D3DClass

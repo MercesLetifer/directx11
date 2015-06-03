@@ -85,6 +85,13 @@ bool D3DClass::Initialize(int screenWidth, int screenHeight, bool vsync, HWND hw
 	if (error)
 		return false;
 
+	// write video card data in  text file
+	std::ofstream videocardFile;
+	videocardFile.open("VideoCardInfo.txt");
+	videocardFile << "Video Card: " << m_videoCardDescription << std::endl
+		<< "Video Card Memory: " << m_videoCardMemory << "Mb" << std::endl;
+	videocardFile.close();
+
 	// release the structures and interfaces used to get information
 	delete[] displayModeList;
 	displayModeList = nullptr;

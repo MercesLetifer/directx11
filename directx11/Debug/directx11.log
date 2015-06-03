@@ -1,8 +1,8 @@
-﻿Сборка начата 03.06.2015 21:20:52.
+﻿Сборка начата 03.06.2015 21:42:43.
      1>Проект "D:\Documents\GitHub\directx11\directx11\directx11.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
-         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt graphicclass.cpp
-         graphicclass.cpp
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt d3dclass.cpp
+         d3dclass.cpp
      1>d:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: DXGI_STATUS_OCCLUDED: изменение макроопределения
                  c:\program files\windows kits\8.1\include\shared\winerror.h(50002): см. предыдущее определение "DXGI_STATUS_OCCLUDED"
      1>d:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: DXGI_STATUS_CLIPPED: изменение макроопределения
@@ -59,6 +59,7 @@
                  c:\program files\windows kits\8.1\include\shared\winerror.h(50355): см. предыдущее определение "D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS"
      1>d:\program files\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: D3D10_ERROR_FILE_NOT_FOUND: изменение макроопределения
                  c:\program files\windows kits\8.1\include\shared\winerror.h(50364): см. предыдущее определение "D3D10_ERROR_FILE_NOT_FOUND"
+     1>d:\documents\github\directx11\directx11\d3dclass.cpp(62): warning C4018: <: несоответствие типов со знаком и без знака
        Link:
          D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\GitHub\directx11\Debug\directx11.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\GitHub\directx11\Debug\directx11.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\GitHub\directx11\Debug\directx11.lib" /MACHINE:X86 Debug\d3dclass.obj
          Debug\graphicclass.obj
@@ -70,4 +71,4 @@
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:03.48
+Затраченное время: 00:00:06.64

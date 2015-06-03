@@ -1,0 +1,2 @@
+Video Card: NVIDIA GeForce GTX 650 Ti 
+Video Card Memory: 971Mb
